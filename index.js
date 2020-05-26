@@ -9,5 +9,5 @@ const skill = skillBuilder.create();
 const adapter = new ExpressAdapter(skill, false, false);
 console.log('index.js');
 app.post('/', adapter.getRequestHandlers());
-app.listen(3000);
+app.listen(process.env.PORT || 5000)
 
