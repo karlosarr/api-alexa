@@ -8,7 +8,7 @@
             "program": "${workspaceRoot}/local-debugger.js",
             "args": [
                 "--portNumber", "3000",
-                "--skillEntryFile", "${workspaceRoot}/index.js",
+                "--skillEntryFile", "${workspaceRoot}/bin/www",
                 "--lambdaHandler", "handler"
             ],
         }
